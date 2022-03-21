@@ -26,10 +26,10 @@ function App() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen
-          name="Macro Tracker"
+          name="Easy Macros"
           component={LoginRegister}
           options={{
-            title: "Macro Tracker",
+            title: "Easy Macros",
             headerStyle: {
               backgroundColor: 'indigo',
               height: 120
@@ -87,7 +87,7 @@ function App() {
 
         <Stack.Screen name="Home" component={Home}
           options={{
-            title: "Macro Tracker",
+            title: "Easy Macros",
             headerLeft: () => null,
             headerStyle: {
               backgroundColor: 'indigo',
@@ -103,7 +103,7 @@ function App() {
 
         <Stack.Screen name="FoodLog" component={FoodLog}
           options={{
-            title: "Macro Tracker",
+            title: "Easy Macros",
             headerLeft: () => null,
             headerStyle: {
               backgroundColor: 'indigo',
@@ -118,7 +118,7 @@ function App() {
         />
         <Stack.Screen name="Tabs" component={Tabs}
           options={{
-            title: "Macro Tracker",
+            title: "Easy Macros",
             headerLeft: () => null,
             headerStyle: {
               backgroundColor: 'indigo',
@@ -133,7 +133,7 @@ function App() {
         />
         <Stack.Screen name="Profile" component={Profile}
           options={{
-            title: "Macro Tracker",
+            title: "Easy Macros",
             headerLeft: () => null,
             headerStyle: {
               backgroundColor: 'indigo',
