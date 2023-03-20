@@ -43,6 +43,7 @@ function Tabs() {
       onIndexChange={setIndex}
 
       initialLayout={{ width: layout.width }}
+      renderTabBar={props => <TabBar {...props} style={{backgroundColor: 'darkgrey'}}/>}
     />
   );
 }

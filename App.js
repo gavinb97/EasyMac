@@ -25,24 +25,23 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen
+        {/* <Stack.Screen
           name="Easy Macros"
           component={LoginRegister}
           options={{
-            title: "Easy Macros",
+            title: "Menu M8",
             headerStyle: {
-              backgroundColor: 'indigo',
-              height: 120
-
+              backgroundColor: 'grey',
+              height: 80
             },
             headerTintColor: 'white',
             headerTitleStyle: {
-              fontSize: 35,
+              fontSize: 25,
               textAlign: 'center'
             },
-          }} />
+          }} /> */}
 
-        <Stack.Screen name="Login" component={LoginForm}
+        {/* <Stack.Screen name="Login" component={LoginForm}
           options={{
             headerStyle: {
               backgroundColor: 'indigo',
@@ -53,10 +52,10 @@ function App() {
               fontSize: 35,
               textAlign: 'center'
             }
-          }}
+          }} */}
 
-        />
-        <Stack.Screen name="Register" component={RegisterForm}
+        {/* /> */}
+        {/* <Stack.Screen name="Register" component={RegisterForm}
           options={{
             headerStyle: {
               backgroundColor: 'indigo',
@@ -83,9 +82,25 @@ function App() {
               textAlign: 'center'
             }
           }}
-        />
+        /> */}
 
-        <Stack.Screen name="Home" component={Home}
+        {/* <Stack.Screen name="Home" component={Home}
+          options={{
+            title: "Menu M8",
+            headerLeft: () => null,
+            headerStyle: {
+              backgroundColor: 'grey',
+              height: 80
+            },
+            headerTintColor: 'white',
+            headerTitleStyle: {
+              fontSize: 35,
+              textAlign: 'center'
+            }
+          }}
+        /> */}
+
+        {/* <Stack.Screen name="FoodLog" component={FoodLog}
           options={{
             title: "Easy Macros",
             headerLeft: () => null,
@@ -99,34 +114,19 @@ function App() {
               textAlign: 'center'
             }
           }}
-        />
-
-        <Stack.Screen name="FoodLog" component={FoodLog}
-          options={{
-            title: "Easy Macros",
-            headerLeft: () => null,
-            headerStyle: {
-              backgroundColor: 'indigo',
-              height: 120
-            },
-            headerTintColor: 'white',
-            headerTitleStyle: {
-              fontSize: 35,
-              textAlign: 'center'
-            }
-          }}
-        />
+        /> */}
         <Stack.Screen name="Tabs" component={Tabs}
           options={{
-            title: "Easy Macros",
+            headerTitleAlign: 'center',
+            title: "Menu M8",
             headerLeft: () => null,
             headerStyle: {
-              backgroundColor: 'indigo',
-              height: 120
+              backgroundColor: 'grey',
+              height: 80,
             },
             headerTintColor: 'white',
             headerTitleStyle: {
-              fontSize: 35,
+              fontSize: 25,
               textAlign: 'center'
             }
           }}
